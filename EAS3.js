@@ -28,7 +28,7 @@ function startGame() {
 	let gridCont = document.createElement('div');
 	gridCont.classList.add('gridContainer');
 
-	gridCont.setAttribute('style', 'display: grid; grid-gap: 1px; padding: 5px; background-color: #376d17; width: 960px; height: 600px; grid-template-columns:' + columns);
+	gridCont.setAttribute('style', 'display: grid; grid-gap: 1px; padding: 5px; background-color: #376d17; margin: auto; width: 960px; height: 600px; grid-template-columns:' + columns);
 	container1.appendChild(gridCont);
 
 	let startFrom1Counter = numbRAC + 1;
